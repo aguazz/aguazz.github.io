@@ -8,19 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-A bit about me
 
-A Section
+Position
 ======
-More about me
+Associate proffesor at CUNEF Universidad
 
-Points
+Education
 ======
-1. Even
-1. more
-1. about
-1. me
+1. PhD in Mathematical Engineering from Universidad Carlos III de Madrid in 2023
+2. Master Degree in Mathematical Engineering from Universidad Carlos III de Madrid in 2018
+3. BSc in Mathematics from Universidad de La Habana in 2014
 
-Another section with a lower bar
-------
-Final info about me
+Research interests
+======
+Optimal stopping, stochastic control, assymetric information, stochastic processes, and financial mathematics. 
