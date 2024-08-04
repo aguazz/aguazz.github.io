@@ -16,9 +16,9 @@ Associate proffesor at CUNEF Universidad
 
 Education
 ======
-1. PhD in Mathematical Engineering from Universidad Carlos III de Madrid in 2023
-2. Master Degree in Mathematical Engineering from Universidad Carlos III de Madrid in 2018
-3. BSc in Mathematics from Universidad de La Habana in 2014
+  * PhD in Mathematical Engineering from Universidad Carlos III de Madrid in 2023
+  * Master Degree in Mathematical Engineering from Universidad Carlos III de Madrid in 2018
+  * BSc in Mathematics from Universidad de La Habana in 2014
 
 Research interests
 ======
