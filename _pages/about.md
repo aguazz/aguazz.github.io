@@ -12,7 +12,7 @@ redirect_from:
 
 Position
 ======
-Associate proffesor at CUNEF Universidad
+Assistant proffesor at CUNEF Universidad
 
 Education
 ======
