@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 
+
 Position
 ======
 Associate proffesor at CUNEF Universidad
