@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "Optimal exercise of American options under time-dependent Ornstein–Uhlenbeck processes"
 collection: publications
 permalink: 
 excerpt: 
