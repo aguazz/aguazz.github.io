@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Abel G. Azze"
+title                    : "About"
 title_separator          : "-"
 name                     : &name "Abel G. Azze"
 description              : &description "Associate Professor"
@@ -184,9 +184,9 @@ collections:
   # portfolio:
   #   output: true
   #   permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
