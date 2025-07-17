@@ -90,3 +90,8 @@
     }
   }
 }
+
+/* Hide the entire footer */
+.page__footer {
+  display: none !important;
+}

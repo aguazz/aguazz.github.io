@@ -8,18 +8,16 @@ redirect_from:
   - /about.html
 ---
 
+### Position
 
-
-Position
-======
 Assistant proffesor at CUNEF Universidad
 
-Education
-======
+### Education
+
   * PhD in Mathematical Engineering from Universidad Carlos III de Madrid in 2023
   * Master Degree in Mathematical Engineering from Universidad Carlos III de Madrid in 2018
   * BSc in Mathematics from Universidad de La Habana in 2014
 
-Research interests
-======
+### Research interests
+
 Optimal stopping, stochastic control, assymetric information, stochastic processes, and financial mathematics. 
