@@ -16,41 +16,75 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- Header -->
+  <body class="sidebar-layout {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Mobile sidebar toggle -->
+    <button id="sidebar-toggle" class="sidebar-toggler collapsed" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+
+    <!-- Sidebar -->
     {% include header.liquid %}
 
-    <!-- Content -->
-    <div class="container mt-5" role="main">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == 'right' %}
-          <div class="row">
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
+    <!-- Main content -->
+    <div class="main-content">
+      <div class="container mt-5" role="main">
+        {% if page.toc and page.toc.sidebar %}
+          {% if page.toc.sidebar == 'right' %}
+            <div class="row">
+              <!-- main content area -->
+              <div class="col-sm-9">{{ content }}</div>
+              <!-- sidebar, which will move to the top on a small screen -->
+              <div class="col-sm-3">
+                <nav id="toc-sidebar" class="sticky-top"></nav>
+              </div>
             </div>
-          </div>
+          {% else %}
+            <div class="row">
+              <!-- sidebar, which will move to the top on a small screen -->
+              <div class="col-sm-3">
+                <nav id="toc-sidebar" class="sticky-top"></nav>
+              </div>
+              <!-- main content area -->
+              <div class="col-sm-9">{{ content }}</div>
+            </div>
+          {% endif %}
         {% else %}
-          <div class="row">
-            <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
-              <nav id="toc-sidebar" class="sticky-top"></nav>
-            </div>
-            <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
-          </div>
+          {{ content }}
         {% endif %}
-      {% else %}
-        {{ content }}
-      {% endif %}
-    </div>
+      </div>
 
-    <!-- Footer -->
-    {% include footer.liquid %}
+      <!-- Footer -->
+      {% include footer.liquid %}
+    </div>
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
+
+    <!-- Sidebar toggle -->
+    <script>
+      (function () {
+        var toggle = document.getElementById('sidebar-toggle');
+        var sidebar = document.getElementById('sidebar');
+        if (!toggle || !sidebar) return;
+        toggle.addEventListener('click', function () {
+          var isOpen = sidebar.classList.contains('sidebar-open');
+          sidebar.classList.toggle('sidebar-open', !isOpen);
+          toggle.classList.toggle('collapsed', isOpen);
+          toggle.setAttribute('aria-expanded', String(!isOpen));
+        });
+        document.addEventListener('click', function (e) {
+          if (window.innerWidth < 992 && sidebar.classList.contains('sidebar-open')) {
+            if (!sidebar.contains(e.target) && !toggle.contains(e.target)) {
+              sidebar.classList.remove('sidebar-open');
+              toggle.classList.add('collapsed');
+              toggle.setAttribute('aria-expanded', 'false');
+            }
+          }
+        });
+      })();
+    </script>
   </body>
 </html>

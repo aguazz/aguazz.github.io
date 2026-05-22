@@ -6,29 +6,25 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
-  --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
-  --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
-  --global-highlight-color: #{v.$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$black-color, "red", v.$space: rgb)},
-    #{color.channel(v.$black-color, "green", v.$space: rgb)},
-    #{color.channel(v.$black-color, "blue", v.$space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{v.$white-color};
-  --global-newsletter-bg-color: #{v.$white-color};
-  --global-newsletter-text-color: #{v.$black-color};
+  --global-bg-color: #{v.$parchment};
+  --global-code-bg-color: rgba(61, 107, 79, 0.06);
+  --global-text-color: #{v.$espresso};
+  --global-text-color-light: #{v.$warm-brown};
+  --global-theme-color: #{v.$forest-green};
+  --global-hover-color: #{v.$forest-green-dark};
+  --global-hover-text-color: #{v.$parchment};
+  --global-footer-bg-color: #{v.$espresso};
+  --global-footer-text-color: #{v.$warm-tan};
+  --global-footer-link-color: #{v.$cream};
+  --global-distill-app-color: #{v.$warm-brown};
+  --global-divider-color: rgba(44, 26, 14, 0.12);
+  --global-card-bg-color: #{v.$parchment-dark};
+  --global-highlight-color: #{v.$forest-green-dark};
+  --global-sidebar-bg-color: #{v.$parchment-dark};
+  --global-back-to-top-bg-color: rgba(44, 26, 14, 0.7);
+  --global-back-to-top-text-color: #{v.$cream};
+  --global-newsletter-bg-color: #{v.$parchment-dark};
+  --global-newsletter-text-color: #{v.$espresso};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -76,28 +72,25 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
-  --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
-  --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$white-color, "red", v.$space: rgb)},
-    #{color.channel(v.$white-color, "green", v.$space: rgb)},
-    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{v.$black-color};
-  --global-newsletter-bg-color: #{v.$grey-color-light};
-  --global-newsletter-text-color: #{v.$grey-color-dark};
+  --global-bg-color: #{v.$espresso-mid};
+  --global-code-bg-color: rgba(123, 174, 138, 0.08);
+  --global-text-color: #{v.$cream};
+  --global-text-color-light: #B89878;
+  --global-theme-color: #{v.$sage-green};
+  --global-hover-color: #{v.$sage-green-light};
+  --global-hover-text-color: #{v.$espresso-mid};
+  --global-footer-bg-color: #120D06;
+  --global-footer-text-color: #B89878;
+  --global-footer-link-color: #{v.$cream};
+  --global-distill-app-color: #B89878;
+  --global-divider-color: rgba(240, 232, 213, 0.1);
+  --global-card-bg-color: #{v.$dark-surface};
+  --global-highlight-color: #{v.$sage-green-light};
+  --global-sidebar-bg-color: #{v.$sidebar-dark};
+  --global-back-to-top-bg-color: rgba(240, 232, 213, 0.2);
+  --global-back-to-top-text-color: #{v.$cream};
+  --global-newsletter-bg-color: #{v.$dark-surface};
+  --global-newsletter-text-color: #{v.$cream};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;

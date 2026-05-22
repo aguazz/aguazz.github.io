@@ -1,11 +1,14 @@
-/******************************************************************************
- * Content
+/*******************************************************************************
+ * Layout — sidebar variant
  ******************************************************************************/
 
 @use "variables" as v;
 
+$sidebar-width: 240px;
+
+// ── Base body ─────────────────────────────────────────────────────────────────
+
 body {
-  padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -15,44 +18,106 @@ body {
   h4,
   h5,
   h6 {
-    scroll-margin-top: 66px;
+    scroll-margin-top: 1.5rem;
   }
 }
 
-body.fixed-top-nav {
-  // Add some padding for the nav-bar.
-  padding-top: 57px;
+body.sidebar-layout {
+  padding: 0;
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
   padding-bottom: 0;
+}
+
+// ── Main content area (right of sidebar) ──────────────────────────────────────
+
+.main-content {
+  margin-left: $sidebar-width;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  > .container {
+    flex: 1;
+    max-width: v.$max-content-width;
+  }
 }
 
 .container {
   max-width: v.$max-content-width;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
+// Hide the floating profile image on the about page —
+// the sidebar already shows the photo.
+body.sidebar-layout .profile {
+  display: none;
+}
+
+// ── Publication cards ─────────────────────────────────────────────────────────
+
+.card {
+  border-radius: 10px;
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-card-bg-color);
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
   }
 }
 
-// Content layout uses Bootstrap's grid system with responsive columns
-// Main content flows naturally through container-mt-5 and Bootstrap grid classes
-// See _layouts/default.liquid and _includes/projects.liquid for examples
+// ── Education timeline ────────────────────────────────────────────────────────
 
-/******************************************************************************
- * Publications
- ******************************************************************************/
+.timeline {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
 
-// Publications layout is defined in _includes/bib_search.liquid
-// Uses jekyll-scholar for BibTeX parsing and Bootstrap cards for display
+  li {
+    position: relative;
+    padding-left: 1.6rem;
+    margin-bottom: 1.1rem;
 
-/*****************************************************************************
-* Projects
-*****************************************************************************/
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.45em;
+      width: 8px;
+      height: 8px;
+      background-color: var(--global-theme-color);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
 
-// TODO: redefine projects layout.
+    &::after {
+      content: '';
+      position: absolute;
+      left: 3.5px;
+      top: calc(0.45em + 10px);
+      width: 1px;
+      bottom: -0.55rem;
+      background-color: var(--global-divider-color);
+    }
+
+    &:last-child::after {
+      display: none;
+    }
+  }
+}
+
+// ── Footer within main-content ────────────────────────────────────────────────
+
+.main-content footer.sticky-bottom {
+  margin-top: auto;
+}
+
+// ── Mobile ────────────────────────────────────────────────────────────────────
+
+@media (max-width: 991.98px) {
+  .main-content {
+    margin-left: 0;
+    padding-top: 3.5rem;
+  }
+}

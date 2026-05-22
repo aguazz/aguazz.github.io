@@ -5,7 +5,10 @@
       "Read(//tmp/**)",
       "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/**)",
       "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_pages/**)",
-      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_data/**)"
+      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_data/**)",
+      "Bash(cd \"/c/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" && ls -la)",
+      "Read(//c/c/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/**)",
+      "WebFetch(domain:egarpor.github.io)"
     ]
   }
 }

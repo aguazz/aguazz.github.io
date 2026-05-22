@@ -4,6 +4,23 @@
 
 @use "variables" as v;
 
+body {
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 p,
 h1,
 h2,
@@ -38,15 +55,43 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: none;
 
   &:hover {
-    color: var(--global-theme-color);
-    text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: none;
   }
+}
 
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
+// Animated slide-in underline for prose links only
+.post p a,
+.post li a,
+article p a,
+article li a {
+  &:not(.btn):not(.badge):not([class*="social"]) {
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background-color: var(--global-theme-color);
+      transition: width 0.25s ease;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
   }
+}
+
+// Accent-colored list markers
+.post ul li::marker,
+article ul li::marker {
+  color: var(--global-theme-color);
 }
 
 .table-dark {

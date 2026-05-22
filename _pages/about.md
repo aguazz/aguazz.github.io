@@ -4,13 +4,8 @@ title: about
 permalink: /
 subtitle: Associate Professor, <a href="https://www.cunef.edu">CUNEF Universidad</a>
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
-
 selected_papers: false
-social: true
+social: false
 
 announcements:
   enabled: false
@@ -25,6 +20,8 @@ My research focuses on **optimal stopping**, stochastic control, asymmetric info
 
 ### Education
 
-- **PhD in Mathematical Engineering**, Universidad Carlos III de Madrid, 2023
-- **MSc in Mathematical Engineering**, Universidad Carlos III de Madrid, 2018
-- **BSc in Mathematics**, Universidad de La Habana, 2014
+<ul class="timeline">
+  <li><strong>PhD in Mathematical Engineering</strong>, Universidad Carlos III de Madrid, 2023</li>
+  <li><strong>MSc in Mathematical Engineering</strong>, Universidad Carlos III de Madrid, 2018</li>
+  <li><strong>BSc in Mathematics</strong>, Universidad de La Habana, 2014</li>
+</ul>
