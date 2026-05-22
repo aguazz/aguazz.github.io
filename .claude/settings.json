@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /tmp/al-folio-clone -maxdepth 2 -not -path '*/.git*' | sort)",
+      "Read(//tmp/**)",
+      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/**)",
+      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_pages/**)",
+      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_data/**)"
+    ]
+  }
+}

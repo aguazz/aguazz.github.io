@@ -1,23 +1,30 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Abel Guada Azze"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: Associate Professor, <a href="https://www.cunef.edu">CUNEF Universidad</a>
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+
+selected_papers: false
+social: true
+
+announcements:
+  enabled: false
+
+latest_posts:
+  enabled: false
 ---
 
-### Position
+I am an Associate Professor in the Department of Quantitative Methods at CUNEF Universidad, Madrid.
 
-Assistant proffesor at CUNEF Universidad
+My research focuses on **optimal stopping**, stochastic control, asymmetric information, and financial mathematics, with particular interest in Gauss–Markov processes and their applications to option pricing.
 
 ### Education
 
-  * PhD in Mathematical Engineering from Universidad Carlos III de Madrid in 2023
-  * Master Degree in Mathematical Engineering from Universidad Carlos III de Madrid in 2018
-  * BSc in Mathematics from Universidad de La Habana in 2014
-
-### Research interests
-
-Optimal stopping, stochastic control, assymetric information, stochastic processes, and financial mathematics. 
+- **PhD in Mathematical Engineering**, Universidad Carlos III de Madrid, 2023
+- **MSc in Mathematical Engineering**, Universidad Carlos III de Madrid, 2018
+- **BSc in Mathematics**, Universidad de La Habana, 2014

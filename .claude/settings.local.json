@@ -5,7 +5,8 @@
       "PowerShell(tree \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\" -L 2 -h)",
       "Bash(du -sh .)",
       "Bash(powershell -Command \"\\(Get-ChildItem -Recurse | Measure-Object -Property Length -Sum\\).Sum / 1MB\")",
-      "Bash(rm \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\\\\_pages\\\\collection-archive.html\" \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\\\\_pages\\\\page-archive.html\")"
+      "Bash(rm \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\\\\_pages\\\\collection-archive.html\" \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\\\\_pages\\\\page-archive.html\")",
+      "Bash(git clone *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\aguaz\\Proton Drive\\aguazz\\My files\\CodeProjects\\aguazz.github.io\\_pages"
