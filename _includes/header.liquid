@@ -56,7 +56,29 @@
 
     <!-- Footer: socials + controls -->
     <div class="sidebar-footer">
-      <div class="sidebar-social">{% social_links %}</div>
+      <div class="sidebar-social">
+        {% if site.data.socials.email %}
+          <a href="mailto:{{ site.data.socials.email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        {% endif %}
+        {% if site.data.socials.scholar_userid %}
+          <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>
+        {% endif %}
+        {% if site.data.socials.orcid_id %}
+          <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" title="ORCID" target="_blank" rel="noopener"><i class="ai ai-orcid"></i></a>
+        {% endif %}
+        {% if site.data.socials.github_username %}
+          <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+        {% endif %}
+        {% if site.data.socials.linkedin_username %}
+          <a href="https://linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+        {% endif %}
+        {% if site.data.socials.researchgate_username %}
+          <a href="https://www.researchgate.net/profile/{{ site.data.socials.researchgate_username }}" title="ResearchGate" target="_blank" rel="noopener"><i class="ai ai-researchgate"></i></a>
+        {% endif %}
+        {% if site.data.socials.cv_pdf %}
+          <a href="{{ site.data.socials.cv_pdf | relative_url }}" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>
+        {% endif %}
+      </div>
       <div class="sidebar-controls">
         {% if site.search_enabled %}
           <button id="search-toggle" title="Search" onclick="openSearchModal()">
