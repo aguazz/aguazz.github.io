@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aguazz.github.io/sitemap.xml
