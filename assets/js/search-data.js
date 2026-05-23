@@ -37,13 +37,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-events",
-          title: "Events",
-          description: "Upcoming conferences, workshops, summer schools, and seminars in optimal stopping, stochastic control, and related areas. Updated weekly by an automated bot — see recent updates.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/events/";
-          },
         },{id: "talks-estimación-por-kernel-en-muestras-pequeñas",
           title: 'Estimación por Kernel en muestras pequeñas',
           description: "",
