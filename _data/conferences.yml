@@ -1,0 +1,77 @@
+# Academic events relevant to optimal stopping, stochastic control, and related areas.
+#
+# This file is maintained automatically by the weekly GitHub Actions bot
+# (.github/workflows/update-conferences.yml) and updated via Pull Requests.
+# To remove an event: delete its entry and merge the PR (or edit directly).
+# To add an event manually: append a new block following the format below.
+#
+# Fields:
+#   name        (required) Full event name
+#   url         (required) Official event URL
+#   type        (required) One of: conference, workshop, summer_school, seminar
+#   date        (optional) Start date, YYYY-MM-DD
+#   deadline    (optional) Abstract/paper submission deadline, YYYY-MM-DD
+#   location    (optional) City, Country — or "Online"
+#   relevance   (optional) Claude's score 1-10 for topic relevance
+#   notes       (optional) One-line description of relevance
+#   added       (optional) Date this entry was added, YYYY-MM-DD
+
+- name: "Stochastic Processes and their Applications (SPA 2025)"
+  url: "https://spa2025.uconn.edu/"
+  type: conference
+  date: "2025-07-28"
+  deadline: null
+  location: "Storrs, CT, USA"
+  relevance: 10
+  notes: "Premier annual probability conference covering optimal stopping, SDEs, and stochastic control."
+  added: "2025-05-23"
+
+- name: "SIAM Conference on Control and Its Applications (CT25)"
+  url: "https://www.siam.org/conferences-events/siam-conferences/ct25/"
+  type: conference
+  date: "2025-07-09"
+  deadline: null
+  location: "Montreal, Canada"
+  relevance: 10
+  notes: "Core venue for stochastic control, dynamic programming, and impulse control."
+  added: "2025-05-23"
+
+- name: "Bachelier Finance Society World Congress 2026"
+  url: "https://www.bachelierfinance.org/"
+  type: conference
+  date: "2026-06-01"
+  deadline: null
+  location: "TBA"
+  relevance: 9
+  notes: "Top mathematical finance conference; strong coverage of optimal stopping and financial mathematics."
+  added: "2025-05-23"
+
+- name: "Workshop on Stochastic Optimal Control and Games"
+  url: "https://www.birs.ca/"
+  type: workshop
+  date: null
+  deadline: null
+  location: "Banff, Canada"
+  relevance: 10
+  notes: "BIRS thematic workshops on stochastic control — check BIRS site for current schedule."
+  added: "2025-05-23"
+
+- name: "One World Probability Seminar"
+  url: "https://www.owprobability.org/"
+  type: seminar
+  date: null
+  deadline: null
+  location: "Online"
+  relevance: 8
+  notes: "Weekly online seminar series covering probability and stochastic processes."
+  added: "2025-05-23"
+
+- name: "One World Mathematical Finance Seminar"
+  url: "https://www.owmf.org/"
+  type: seminar
+  date: null
+  deadline: null
+  location: "Online"
+  relevance: 9
+  notes: "Weekly online seminar on mathematical finance and stochastic control."
+  added: "2025-05-23"

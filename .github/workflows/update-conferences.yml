@@ -1,0 +1,65 @@
+name: Update events list
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC
+    - cron: "0 8 * * 1"
+  workflow_dispatch: # Allow manual run from GitHub UI
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --quiet \
+            anthropic \
+            tavily-python \
+            requests \
+            feedparser \
+            pyyaml
+
+      - name: Run event discovery script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: python scripts/fetch_conferences.py
+
+      - name: Open Pull Request with updated list
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "data: weekly events list update"
+          title: "Weekly events update — please review before merging"
+          body: |
+            ## Automated weekly conference & events discovery
+
+            This PR was opened by the weekly event-discovery bot.
+            Events were found by searching **researchseminars.org**, **WikiCFP**, and **Tavily**,
+            then ranked for relevance by Claude AI (threshold: 6/10).
+
+            ### What to do
+
+            1. Open [`_data/conferences.yml`](_data/conferences.yml) in this PR's **Files changed** tab.
+            2. Delete any entries you don't want (you can edit directly in the GitHub UI).
+            3. Click **Merge pull request** — the site rebuilds automatically within a few minutes.
+
+            > If there are no changes in the file (nothing new was found), this PR can simply be closed.
+          branch: auto/events-update
+          delete-branch: true
+          labels: automated
+          # Only open a PR if _data/conferences.yml actually changed
+          add-paths: _data/conferences.yml
