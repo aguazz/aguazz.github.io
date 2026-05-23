@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: talks
+title: Talks
 description: Conference talks, seminars, and posters.
 nav: true
 nav_order: 3

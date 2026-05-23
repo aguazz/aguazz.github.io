@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Associate Professor, <a href="https://www.cunef.edu">CUNEF Universidad</a>
 

@@ -8,11 +8,11 @@
 
 "damico":
   - firstname: ["Guglielmo", "G."]
-    url: https://scholar.google.com/citations?user=G.D%27Amico
+    url: https://scholar.google.it/citations?user=TwAlTHMAAAAJ&hl=it
 
 "vergine":
-  - firstname: ["Stefania", "S."]
-    url:
+  - firstname: ["Salvatore", "S."]
+    url: https://orcid.org/0000-0002-3926-3081
 
 "salomon":
   - firstname: ["Luis A.", "L. A.", "Luis"]

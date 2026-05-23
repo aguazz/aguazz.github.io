@@ -128,6 +128,9 @@ $sidebar-width: 240px;
   margin-bottom: 0.9rem;
 
   a {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
     color: var(--global-text-color-light);
     margin-right: 0.55rem;
     text-decoration: none;

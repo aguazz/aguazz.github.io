@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Courses taught at CUNEF Universidad and elsewhere.
 nav: true
 nav_order: 4
