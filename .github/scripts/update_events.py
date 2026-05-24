@@ -12,7 +12,7 @@ from datetime import date, datetime
 import anthropic
 import yaml
 
-REPO_ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
+REPO_ROOT = os.environ.get("GITHUB_WORKSPACE") or os.path.join(os.path.dirname(__file__), "..", "..")
 EVENTS_FILE = os.path.join(REPO_ROOT, "_data", "events.yml")
 
 SEARCH_PROMPT = """\
@@ -95,18 +95,26 @@ def run() -> None:
 
     print("Querying Claude for upcoming congress dates…")
 
-    response = client.messages.create(
-        model="claude-opus-4-7",
-        max_tokens=2048,
-        tools=[
-            {
-                "type": "web_search_20250305",
-                "name": "web_search",
-                "max_uses": 12,
-            }
-        ],
-        messages=[{"role": "user", "content": prompt}],
-    )
+    try:
+        response = client.beta.messages.create(
+            model="claude-opus-4-7",
+            max_tokens=4096,
+            tools=[
+                {
+                    "type": "web_search_20250305",
+                    "name": "web_search",
+                    "max_uses": 12,
+                }
+            ],
+            betas=["web-search-2025-03-05"],
+            messages=[{"role": "user", "content": prompt}],
+        )
+    except Exception as exc:
+        print(f"API call failed: {exc}")
+        sys.exit(1)
+
+    print(f"Stop reason: {response.stop_reason}")
+    print(f"Response blocks: {[type(b).__name__ for b in response.content]}")
 
     # Extract the final text block from the response
     result_text = ""
