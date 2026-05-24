@@ -30,9 +30,6 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
-      - "!_updates/update.yml"
-      - "!_updates/processed/**"
-      - "!_updates/attachments/**"
   pull_request:
     branches:
       - master
@@ -62,9 +59,6 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
-      - "!_updates/update.yml"
-      - "!_updates/processed/**"
-      - "!_updates/attachments/**"
   workflow_dispatch:
 
 permissions:
