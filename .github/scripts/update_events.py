@@ -7,7 +7,7 @@ import json
 import os
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timezone
 
 import anthropic
 import yaml
@@ -165,7 +165,7 @@ def run() -> None:
     if not changed:
         print("No changes detected.")
     else:
-        data["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d")
+        data["last_updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         save_events(data)
         print(f"Saved updated events to {EVENTS_FILE}")
 
