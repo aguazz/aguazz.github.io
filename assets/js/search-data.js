@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-events",
+          title: "Events",
+          description: "Upcoming editions of key congresses in probability and mathematical finance.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/events/";
+          },
         },{
       id: 'light-theme',
       title: 'Change theme to light',
