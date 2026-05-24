@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Professor, <a href="https://www.cunef.edu">CUNEF Universidad</a>
+subtitle: ""
 
 selected_papers: false
 social: false
@@ -17,6 +17,8 @@ latest_posts:
 I am an Associate Professor in the Department of Quantitative Methods at CUNEF Universidad, Madrid.
 
 My research focuses on **optimal stopping**, stochastic control, asymmetric information, and financial mathematics, with particular interest in Gauss–Markov processes and their applications to option pricing.
+
+To download the full CV, [click here](/assets/pdf/Curriculum_Vitae.pdf).
 
 ### Education
 

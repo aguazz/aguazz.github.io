@@ -161,18 +161,6 @@ a.anchor {
   visibility: hidden;
 }
 
-ul.timeline {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-ul.timeline li {
-  position: relative;
-  min-height: 2.2rem;
-  color: var(--global-text-color);
-  list-style-position: inside;
-}
-
 span.badge-toc {
   color: var(--global-bg-color);
   background-color: var(--global-theme-color);
@@ -181,18 +169,6 @@ span.badge-toc {
   font-weight: 700 !important;
   display: inline-block;
   inline-size: fit-content;
-}
-
-ul.timeline li::before {
-  content: "";
-  min-height: 2.5rem;
-  width: 1px;
-  background: var(--global-text-color);
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 2px;
-  top: -0.5rem;
 }
 
 /*ul.timeline::before {
