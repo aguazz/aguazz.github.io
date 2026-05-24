@@ -36,21 +36,21 @@ congresses:
     notes: XLII Congreso Nacional de Estadística, Investigación Operativa y Ciencia
       de Datos
 - id: iwspa
-  name: International Workshop on Statistical Process Control and Analytical Methods
+  name: International Workshop on Statistical Process Analysis
   short_name: IWSPA
-  description: 'An international workshop focused on statistical process control,
-    analytical methods, and applied probability.
+  description: 'An international workshop on statistical process analysis, organized
+    jointly with SEIO. Editions follow a yearly pattern, with websites at sites.google.com/view/iwspa{year}.
 
     '
-  website: ''
+  website: https://sites.google.com/view/iwspa2026/home
   next_edition:
-    year: ''
+    year: '2026'
     dates_start: ''
     dates_end: ''
     location: ''
     abstract_deadline: ''
     registration_deadline: ''
-    edition_website: ''
+    edition_website: https://sites.google.com/view/iwspa2026/home
     notes: ''
 - id: clapem
   name: Latin American Congress of Probability and Mathematical Statistics

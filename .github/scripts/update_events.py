@@ -62,10 +62,41 @@ def save_events(data: dict) -> None:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False, default_flow_style=False)
 
 
+SEARCH_HINTS = {
+    "bachelier": (
+        "Check bachelier-finance.org and bacheliercongress.com. "
+        "It is held every two years."
+    ),
+    "seio": (
+        "Check seio.es. It is held every two years. "
+        "Also check for any announced future congress on that site."
+    ),
+    "iwspa": (
+        "Check sites.google.com/view/iwspa2026/home for the 2026 edition. "
+        "URL pattern for past editions: sites.google.com/view/iwspa{year}-gt-seio or "
+        "sites.google.com/view/iwspa{year}. "
+        "It is also sometimes announced on seio.es. "
+        "Find dates, location, and any submission deadlines."
+    ),
+    "clapem": (
+        "Check clapem.org and ime.usp.br/~slapem/ (the SLAPEM society website). "
+        "The XVII edition was held March 2-6, 2026 in Montevideo — that has passed. "
+        "Look for any announcement of the XVIII edition (next one, expected around 2029). "
+        "If not announced, leave all date fields empty but note it in 'notes'."
+    ),
+}
+
+
 def build_congress_description(congresses: list) -> str:
     lines = []
     for c in congresses:
-        line = f"- id: {c['id']}, name: {c['name']}, website: {c.get('website', '')}"
+        hint = SEARCH_HINTS.get(c["id"], "")
+        line = (
+            f"- id: {c['id']}, name: {c['name']}, "
+            f"website: {c.get('website', '')}"
+        )
+        if hint:
+            line += f"\n  search hint: {hint}"
         lines.append(line)
     return "\n".join(lines)
 
