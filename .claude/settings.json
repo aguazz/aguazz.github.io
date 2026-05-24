@@ -18,7 +18,10 @@
       "Bash(Select-Object Name, Mode)",
       "Bash(Format-Table -AutoSize)",
       "Bash(git -C \"c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" status --short)",
-      "Bash(git -C \"c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" status -u)"
+      "Bash(git -C \"c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" status -u)",
+      "Read(//c/Users/aguaz/Downloads/**)",
+      "Bash(git revert *)",
+      "Bash(python3 -)"
     ]
   }
 }

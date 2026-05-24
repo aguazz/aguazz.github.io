@@ -87,6 +87,20 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Inject Buttondown credentials ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "buttondown_username"
+          value: ${{ secrets.BUTTONDOWN_USERNAME }}
+      - name: Inject Buttondown API key ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "buttondown_api_key"
+          value: ${{ secrets.BUTTONDOWN_API_KEY }}
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

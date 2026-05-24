@@ -84,6 +84,15 @@ newsletter:
   enabled: false
 
 # -----------------------------------------------------------------------------
+# Events / Buttondown newsletter
+# -----------------------------------------------------------------------------
+
+# Your Buttondown username (appears in buttondown.email/<username>)
+buttondown_username: ""
+# Your Buttondown API key — used client-side only for subscriber write access
+buttondown_api_key: ""
+
+# -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 

@@ -1,0 +1,72 @@
+# Congress events data
+# Updated monthly by .github/workflows/update-events.yml
+last_updated: ""
+
+congresses:
+  - id: bachelier
+    name: Bachelier Finance Society World Congress
+    short_name: Bachelier
+    description: >
+      The world congress of quantitative finance, bringing together researchers
+      in mathematical finance, stochastic analysis, and financial mathematics.
+    website: https://www.bachelier-finance.org
+    next_edition:
+      year: 2026
+      dates_start: ""
+      dates_end: ""
+      location: ""
+      abstract_deadline: ""
+      registration_deadline: ""
+      edition_website: ""
+      notes: ""
+
+  - id: seio
+    name: Congreso de la Sociedad Española de Estadística e Investigación Operativa
+    short_name: SEIO
+    description: >
+      The biennial congress of the Spanish Society of Statistics and Operations Research,
+      covering statistics, probability, and operations research.
+    website: https://www.seio.es
+    next_edition:
+      year: 2025
+      dates_start: ""
+      dates_end: ""
+      location: ""
+      abstract_deadline: ""
+      registration_deadline: ""
+      edition_website: ""
+      notes: ""
+
+  - id: iwspa
+    name: International Workshop on Statistical Process Control and Analytical Methods
+    short_name: IWSPA
+    description: >
+      An international workshop focused on statistical process control,
+      analytical methods, and applied probability.
+    website: ""
+    next_edition:
+      year: ""
+      dates_start: ""
+      dates_end: ""
+      location: ""
+      abstract_deadline: ""
+      registration_deadline: ""
+      edition_website: ""
+      notes: ""
+
+  - id: clapem
+    name: Latin American Congress of Probability and Mathematical Statistics
+    short_name: CLAPEM
+    description: >
+      The main meeting of the Latin American community in probability
+      and mathematical statistics, held every three years.
+    website: https://clapem.org
+    next_edition:
+      year: ""
+      dates_start: ""
+      dates_end: ""
+      location: ""
+      abstract_deadline: ""
+      registration_deadline: ""
+      edition_website: ""
+      notes: ""
