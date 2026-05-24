@@ -144,11 +144,11 @@ events_subscribe: true
   <p class="events-last-updated">Last updated: {{ site.data.events.last_updated }}</p>
 {% endif %}
 
----
+<hr>
 
-### Stay up to date
+<h3>Stay up to date</h3>
 
-Subscribe to receive a monthly email with upcoming deadlines and announcements for the congresses you follow.
+<p>Subscribe to receive a monthly email with upcoming deadlines and announcements for the congresses you follow.</p>
 
 <div class="events-subscribe-section" id="events-subscribe">
   <form id="events-subscribe-form" class="events-form" novalidate>
