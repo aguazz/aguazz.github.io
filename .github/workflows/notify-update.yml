@@ -1,0 +1,27 @@
+name: Monthly update reminder
+
+# Sends an email on the 1st of every month reminding Abel to update the site.
+# Can also be triggered manually from the Actions tab for testing.
+on:
+  schedule:
+    - cron: "0 9 1 * *"   # 1st of the month at 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send reminder email via Resend
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          curl -sf -X POST https://api.resend.com/emails \
+            -H "Authorization: Bearer $RESEND_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "from": "Site Updater <onboarding@resend.dev>",
+              "to":   ["aguazz@protonmail.com"],
+              "subject": "Monthly reminder: update your academic website",
+              "html": "<p>Hi Abel,</p><p>This is your monthly reminder to update <a href=\"https://aguazz.github.io\">aguazz.github.io</a>.</p><h3>To add a new publication or talk:</h3><ol><li>Copy <code>_updates/update_template.yml</code> to <code>_updates/update.yml</code></li><li>Fill in the form</li><li>Place any PDF slides in <code>_updates/attachments/</code></li><li>Commit everything and push to <code>master</code></li></ol><p>The rest is automatic. See <code>_updates/README.md</code> for the full field reference.</p><p>— Site Updater Bot</p>"
+            }'
