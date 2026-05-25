@@ -13,6 +13,7 @@
   doi          = {10.1017/apr.2024.21},
   html         = {https://doi.org/10.1017/apr.2024.21},
   arxiv        = {2211.05835},
+  abstract     = {We solve the non-discounted, finite-horizon optimal stopping problem of a Gauss-Markov bridge by using a time-space transformation approach. The associated optimal stopping boundary is proved to be Lipschitz continuous on any closed interval that excludes the horizon, and it is characterized by the unique solution of an integral equation. A Picard iteration algorithm is discussed and implemented to exemplify the numerical computation and geometry of the optimal stopping boundary for some illustrative cases.},
 }
 
 @article{azze2025windfarm,
@@ -26,6 +27,7 @@
   doi          = {10.1007/s10479-024-06236-6},
   html         = {https://doi.org/10.1007/s10479-024-06236-6},
   arxiv        = {2501.17464},
+  abstract     = {We propose a new methodology to simulate the discounted penalty applied to a wind-farm operator by violating ramp-rate limitation policies. It is assumed that the operator manages a wind turbine plugged into a battery, which either provides or stores energy on demand to avoid ramp-up and ramp-down events. The battery stages, namely charging, discharging, or neutral, are modeled as a semi-Markov process. During each charging/discharging period, the energy stored/supplied is assumed to follow a modified Brownian bridge that depends on three parameters. We prove the validity of our methodology by testing the model on 10 years of real wind-power data and comparing real versus simulated results.},
 }
 
 @article{azze2024oubridge,
@@ -39,6 +41,7 @@
   doi          = {10.1016/j.spa.2024.104342},
   html         = {https://doi.org/10.1016/j.spa.2024.104342},
   arxiv        = {2110.13056},
+  abstract     = {We make a rigorous analysis of the existence and characterization of the free boundary related to the optimal stopping problem that maximizes the mean of an Ornstein--Uhlenbeck bridge. The result includes the Brownian bridge problem as a limit case. The methodology hereby presented relies on a time-space transformation that casts the original problem into a more tractable one with an infinite horizon and a Brownian motion underneath. We comment on two different numerical algorithms to compute the free-boundary equation and discuss illustrative cases that shed light on the boundary's shape. In particular, the free boundary generally does not share the monotonicity of the Brownian bridge case.},
 }
 
 @article{azze2024american,
@@ -53,6 +56,7 @@
   doi          = {10.1080/17442508.2024.2325402},
   html         = {https://doi.org/10.1080/17442508.2024.2325402},
   arxiv        = {2211.04095},
+  abstract     = {We study the barrier that gives the optimal time to exercise an American option written on a time-dependent Ornstein--Uhlenbeck process, a diffusion often adopted by practitioners to model commodity prices and interest rates. By framing the optimal exercise of the American option as a problem of optimal stopping and relying on probabilistic arguments, we provide a non-linear Volterra-type integral equation characterizing the exercise boundary, develop a novel comparison argument to derive upper and lower bounds for such a boundary, and prove its Lipschitz continuity in any closed interval that excludes the expiration date and, thus, its differentiability almost everywhere. We implement a Picard iteration algorithm to solve the Volterra integral equation and show illustrative examples that shed light on the boundary's dependence on the process's drift and volatility.},
 }
 
 @article{dauria2020brownian,
@@ -67,6 +71,7 @@
   doi          = {10.3390/math8071159},
   html         = {https://doi.org/10.3390/math8071159},
   arxiv        = {1903.11686},
+  abstract     = {Mathematically, the execution of an American-style financial derivative is commonly reduced to solving an optimal stopping problem. Breaking the general assumption that the knowledge of the holder is restricted to the price history of the underlying asset, we allow for the disclosure of future information about the terminal price of the asset by modeling it as a Brownian bridge. This model may be used under special market conditions, in particular we focus on what in the literature is known as the ``pinning effect'', that is, when the price of the asset approaches the strike price of a highly-traded option close to its expiration date. Our main mathematical contribution is in characterizing the solution to the optimal stopping problem when the gain function includes the discount factor. We show how to numerically compute the solution and we analyze the effect of the volatility estimation on the strategy by computing the confidence curves around the optimal stopping boundary. Finally, we compare our method with the optimal exercise time based on a geometric Brownian motion by using real data exhibiting pinning.},
 }
 
 @unpublished{azze2026robust,
@@ -85,4 +90,5 @@
   note         = {Working paper},
   html         = {https://doi.org/10.48550/arXiv.2505.03636},
   arxiv        = {2505.03636},
+  abstract     = {We consider the optimal stopping problem for a Gauss-Markov process conditioned to adopt a prescribed terminal distribution. By applying a time-space transformation, we show it is equivalent to stopping a Brownian bridge pinned at a random endpoint with a time-dependent payoff. We prove that the optimal rule is the first entry into the stopping region, and establish that the value function is Lipschitz continuous on compacts via a coupling of terminal pinning points across different initial conditions. A comparison theorem then orders value functions according to likelihood-ratio ordering of terminal densities, and when these densities have bounded support, we bound the optimal boundary by that of a Gauss-Markov bridge. Although the stopping boundary need not be the graph of a function in general, we provide sufficient conditions under which this property holds, and identify strongly log-concave terminal densities that guarantee this structure. Numerical experiments illustrate representative boundary shapes.},
 }
