@@ -9,9 +9,16 @@ nav_order: 4
 
 ### CUNEF Universidad
 
+**2025 / 2026**
+- *Quantitative Methods for Humanities* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_qmh){:target="_blank"}
+- *Mathematics* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_mathematics){:target="_blank"}
+- *Econometría* — Doble Grado en Administración y Dirección de Empresas y Derecho
+- *Data Analytics* — Master in Philosophy, Politics & Economics
+- *Data Collection and Processing* — Double Bachelor in Business Administration and Law
+
 **2024 / 2025**
-- *Quantitative Methods for Humanities* — Bachelor in Philosophy, Politics & Economics
-- *Mathematics* — Bachelor in Philosophy, Politics & Economics
+- *Quantitative Methods for Humanities* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_qmh){:target="_blank"}
+- *Mathematics* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_mathematics){:target="_blank"}
 - *Data Collection and Processing* — Double Bachelor in Business Administration and Law
 
 **2023 / 2024**

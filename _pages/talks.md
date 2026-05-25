@@ -12,7 +12,7 @@ nav_order: 3
 {% assign seminars = site.talks | where: "type", "Seminar" | sort: "date" | reverse %}
 {% for talk in seminars %}
 - **{{ talk.date | date: "%Y" }}** — *{{ talk.title }}*  
-  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · [Slides]({{ talk.slides }}){% endif %}
+  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · <a href="{{ talk.slides }}" target="_blank">Slides</a>{% endif %}{% if talk.video %} · <a href="{{ talk.video }}" target="_blank">Video</a>{% endif %}{% if talk.event_url %} · <a href="{{ talk.event_url }}" target="_blank">Event</a>{% endif %}
 {% endfor %}
 
 ---
@@ -22,7 +22,7 @@ nav_order: 3
 {% assign invited = site.talks | where: "type", "Invited Talk" | sort: "date" | reverse %}
 {% for talk in invited %}
 - **{{ talk.date | date: "%Y" }}** — *{{ talk.title }}*  
-  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · [Slides]({{ talk.slides }}){% endif %}
+  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · <a href="{{ talk.slides }}" target="_blank">Slides</a>{% endif %}{% if talk.video %} · <a href="{{ talk.video }}" target="_blank">Video</a>{% endif %}{% if talk.event_url %} · <a href="{{ talk.event_url }}" target="_blank">Event</a>{% endif %}
 {% endfor %}
 
 ---
@@ -32,7 +32,7 @@ nav_order: 3
 {% assign contributed = site.talks | where: "type", "Talk" | sort: "date" | reverse %}
 {% for talk in contributed %}
 - **{{ talk.date | date: "%Y" }}** — *{{ talk.title }}*  
-  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · [Slides]({{ talk.slides }}){% endif %}
+  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · <a href="{{ talk.slides }}" target="_blank">Slides</a>{% endif %}{% if talk.video %} · <a href="{{ talk.video }}" target="_blank">Video</a>{% endif %}{% if talk.event_url %} · <a href="{{ talk.event_url }}" target="_blank">Event</a>{% endif %}
 {% endfor %}
 
 ---
@@ -42,5 +42,5 @@ nav_order: 3
 {% assign posters = site.talks | where: "type", "Poster" | sort: "date" | reverse %}
 {% for talk in posters %}
 - **{{ talk.date | date: "%Y" }}** — *{{ talk.title }}*  
-  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · [Poster]({{ talk.slides }}){% endif %}
+  {{ talk.venue }}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.slides %} · <a href="{{ talk.slides }}" target="_blank">Poster</a>{% endif %}{% if talk.video %} · <a href="{{ talk.video }}" target="_blank">Video</a>{% endif %}{% if talk.event_url %} · <a href="{{ talk.event_url }}" target="_blank">Event</a>{% endif %}
 {% endfor %}
