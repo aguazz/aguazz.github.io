@@ -2,10 +2,12 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: List of the most relevant invited and contributed talks. Full details are available in my [CV](/assets/pdf/Curriculum_Vitae.pdf). Since the slides often include animations, I recommend viewing them with Adobe Reader or another PDF reader that supports animated content.
+description: List of the most relevant invited and contributed talks.
 nav: true
 nav_order: 3
 ---
+
+Full details are available in my [CV](/assets/pdf/cv.pdf). Since the slides often include animations, I recommend viewing them with Adobe Reader or another PDF reader that supports animated content.
 
 ### Invited Talks
 
