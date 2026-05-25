@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Courses taught at CUNEF Universidad and elsewhere.
+description: Courses taught listed by institution. GitHub repositories with teaching materials are available for some courses.
 nav: true
 nav_order: 4
 ---
