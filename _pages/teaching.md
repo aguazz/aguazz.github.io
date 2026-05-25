@@ -19,10 +19,10 @@ nav_order: 4
 **2024 / 2025**
 - *Quantitative Methods for Humanities* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_qmh){:target="_blank"}
 - *Mathematics* — Bachelor in Philosophy, Politics & Economics &nbsp;[\[GitHub\]](https://github.com/aguazz/ppe_mathematics){:target="_blank"}
+- *Econometría* — Doble Grado en Administración y Dirección de Empresas e Ingeniería Informática
 - *Data Collection and Processing* — Double Bachelor in Business Administration and Law
 
 **2023 / 2024**
-- *Econometrics* — Double Bachelor in Business Administration and Computer Science
 - *Econometría* — Doble Grado en Administración y Dirección de Empresas e Ingeniería Informática
 - *Econometrics* — Double Bachelor in Business Administration and Law
 - *Data Collection and Processing* — Double Bachelor in Business Administration and Law

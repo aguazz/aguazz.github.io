@@ -14,6 +14,10 @@
   - firstname: ["Salvatore", "S."]
     url: https://orcid.org/0000-0002-3926-3081
 
+"ferrari":
+  - firstname: ["Giorgio", "G."]
+    url: https://sites.google.com/site/giorgioferrariswebsite/
+
 "salomon":
   - firstname: ["Luis A.", "L. A.", "Luis"]
     url:
