@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-talks",
           title: "Talks",
-          description: "Conference talks, seminars, and posters.",
+          description: "List of the most relevant invited and contributed talks. Full details are available in my [CV](/assets/pdf/Curriculum_Vitae.pdf). Since the slides often include animations, I recommend viewing them with Adobe Reader or another PDF reader that supports animated content.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
