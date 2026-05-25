@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Papers are listed in reverse chronological order.",
+          description: "Research publications by Abel G. Azze on optimal stopping, Gauss–Markov processes, stochastic control, and financial mathematics. Listed in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
