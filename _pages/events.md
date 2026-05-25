@@ -2,7 +2,7 @@
 layout: page
 permalink: /events/
 title: Events
-description: Upcoming editions of key congresses in probability and mathematical finance.
+description: Upcoming editions of key conferences related to my research interests and professional networks.
 nav: true
 nav_order: 5
 events_subscribe: true
