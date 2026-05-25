@@ -37,27 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/events/";
           },
-        },{id: "talks-optimal-stopping-of-gauss-markov-processes-with-random-terminal-value",
-          title: 'Optimal stopping of Gauss-Markov processes with random terminal value',
-          description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/2025-05-12-gauss-markov-random-terminal-fields";
-            },},{id: "talks-optimally-stopping-a-gauss-markov-process-with-random-terminal-value",
-          title: 'Optimally Stopping a Gauss–Markov process with random terminal value',
-          description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/2025-06-10-lleida-seio";
-            },},{id: "talks-optimal-stopping-of-a-gauss-markov-process-with-random-terminal-density",
-          title: 'Optimal Stopping of a Gauss-Markov Process with random terminal density',
-          description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/2025-09-19-odosp25-toronto";
-            },},{id: "talks-ergodic-singular-control-for-ambiguous-compound-poisson-jump-diffusion-processes",
-          title: 'Ergodic singular control for ambiguous compound-Poisson jump-diffusion processes',
-          description: "",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/2026-03-02-clapem-montevideo";
-            },},{
+        },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
