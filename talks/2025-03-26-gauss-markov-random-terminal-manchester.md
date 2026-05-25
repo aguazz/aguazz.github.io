@@ -6,7 +6,7 @@ permalink: /talks/2025-03-26-gauss-markov-random-terminal-manchester
 venue: "Probability Seminar, Department of Mathematics, University of Manchester"
 date: 2025-03-26
 location: "Manchester, UK"
-slides: /assets/pdf/talks/2025-03-26-gauss-markov-random-terminal-manchester.pdf
+slides: /assets/pdf/talks/2025-03-26-manchester.pdf
 ---
 
 With Bernardo D'Auria.
