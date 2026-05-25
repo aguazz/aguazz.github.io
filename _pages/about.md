@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: ""
+description: "Abel G. Azze is an Associate Professor at CUNEF Universidad, Madrid, specialising in optimal stopping, stochastic control, and financial mathematics."
 
 selected_papers: false
 social: false

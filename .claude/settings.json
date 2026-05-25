@@ -27,7 +27,8 @@
       "Bash(where gh *)",
       "Bash(where.exe gh *)",
       "Bash(git restore *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(curl -s \"https://export.arxiv.org/api/query?id_list=2211.05835,2501.17464,2110.13056,2211.04095,1903.11686,2505.03636\")"
     ]
   }
 }

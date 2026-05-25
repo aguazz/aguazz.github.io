@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank
+title: Abel G. Azze
 first_name: Abel G.
 last_name: Azze
 contact_note: ""
-description: ""
+description: "Personal academic webpage of Abel G. Azze, Associate Professor at CUNEF Universidad, Madrid. Research in optimal stopping, stochastic control, and financial mathematics."
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
   <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -45,16 +45,16 @@ max_width: 930px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 
-serve_og_meta: false
-serve_schema_org: false
-og_image:
+serve_og_meta: true
+serve_schema_org: true
+og_image: /assets/img/prof_pic.jpg
 
 # -----------------------------------------------------------------------------
 # Analytics
 # -----------------------------------------------------------------------------
 
 google_analytics:
-google_site_verification:
+google_site_verification: E3yqJ-1AcGBPX3E4pq27Oyxwas_zHbElJTMIq3rAtis
 bing_site_verification:
 
 # -----------------------------------------------------------------------------
@@ -265,7 +265,7 @@ lazy_loading_images: true
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:    false
-enable_google_verification: false
+enable_google_verification: true
 enable_bing_verification:   false
 enable_cookie_consent:      false
 enable_masonry:             false
