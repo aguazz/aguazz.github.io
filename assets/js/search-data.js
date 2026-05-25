@@ -25,14 +25,14 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "Teaching",
-          description: "Courses taught at CUNEF Universidad and elsewhere.",
+          description: "Courses taught listed by institution. GitHub repositories with teaching materials are available for some courses.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
         },{id: "nav-events",
           title: "Events",
-          description: "Upcoming editions of key congresses in probability and mathematical finance.",
+          description: "Upcoming editions of key conferences related to my research interests and professional networks.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/events/";
