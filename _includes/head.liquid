@@ -72,7 +72,15 @@
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>"
   >
 {% elsif site.icon != blank %}
-  <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
+  {% assign icon_path = site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache %}
+  {% assign icon_ext = site.icon | split: '.' | last | downcase %}
+  {% if icon_ext == 'png' %}{% assign icon_type = 'image/png' %}
+  {% elsif icon_ext == 'ico' %}{% assign icon_type = 'image/x-icon' %}
+  {% elsif icon_ext == 'svg' %}{% assign icon_type = 'image/svg+xml' %}
+  {% else %}{% assign icon_type = 'image/jpeg' %}{% endif %}
+  <link rel="icon" type="{{ icon_type }}" href="{{ icon_path }}">
+  <link rel="apple-touch-icon" href="{{ icon_path }}">
+  <link rel="shortcut icon" href="{{ icon_path }}">
 {% endif %}
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
