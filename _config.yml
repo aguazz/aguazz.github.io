@@ -207,8 +207,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
-  group_order: descending
+  group_by: none
 
 enable_publication_badges:
   altmetric: false
@@ -274,7 +273,7 @@ enable_darkmode:            true
 enable_navbar_social:       false
 enable_project_categories:  false
 enable_medium_zoom:         true
-enable_progressbar:         true
+enable_progressbar:         false
 enable_video_embedding:     false
 
 # -----------------------------------------------------------------------------
