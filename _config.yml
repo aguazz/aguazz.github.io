@@ -94,11 +94,6 @@ buttondown_api_key: ""
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  talks:
-    output: true
-    permalink: /talks/:path/
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -161,12 +156,6 @@ defaults:
       path: "assets"
     values:
       sitemap: false
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: page
-      nav: false
 
 sass:
   style: compressed
