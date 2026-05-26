@@ -1,43 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find /tmp/al-folio-clone -maxdepth 2 -not -path '*/.git*' | sort)",
-      "Read(//tmp/**)",
-      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/**)",
-      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_pages/**)",
-      "Read(//c/Users/aguaz/AppData/Local/Temp/al-folio-clone/_data/**)",
-      "Bash(cd \"/c/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" && ls -la)",
-      "Read(//c/c/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/**)",
-      "WebFetch(domain:egarpor.github.io)",
-      "Bash(git add *)",
-      "Bash(git commit -m ' *)",
-      "Bash(git push *)",
-      "Bash(grep ^title: 'c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io/__TRACKED_VAR__')",
-      "Bash(git commit *)",
-      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\" -Force)",
-      "Bash(Select-Object Name, Mode)",
-      "Bash(Format-Table -AutoSize)",
-      "Bash(git -C \"c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" status --short)",
-      "Bash(git -C \"c:/Users/aguaz/Proton Drive/aguazz/My files/CodeProjects/aguazz.github.io\" status -u)",
-      "Read(//c/Users/aguaz/Downloads/**)",
-      "Bash(git revert *)",
-      "Bash(python3 -)",
-      "Bash(Select-Object -First 20)",
-      "Bash(gh run *)",
-      "Bash(where gh *)",
-      "Bash(where.exe gh *)",
-      "Bash(git restore *)",
-      "Bash(git rm *)",
-      "Bash(curl -s \"https://export.arxiv.org/api/query?id_list=2211.05835,2501.17464,2110.13056,2211.04095,1903.11686,2505.03636\")",
-      "WebFetch(domain:aguazz.github.io)",
-      "Bash(curl -s \"https://aguazz.github.io/\")",
-      "Bash(python3 -c \"import sys; html=sys.stdin.read\\(\\); start=html.find\\('ld+json'\\); print\\(html[start:start+800] if start!=-1 else 'NOT FOUND'\\)\")",
-      "PowerShell($html = \\(Invoke-WebRequest \"https://aguazz.github.io/\"\\).Content; $start = $html.IndexOf\\(\"ld+json\"\\); if \\($start -ne -1\\) { $html.Substring\\($start, [Math]::Min\\(600, $html.Length - $start\\)\\) } else { \"NOT FOUND\" })",
-      "Bash(sed 's/.*ld+json\">//')",
-      "Bash(identify \"c:\\\\Users\\\\aguaz\\\\Proton Drive\\\\aguazz\\\\My files\\\\CodeProjects\\\\aguazz.github.io\\\\assets\\\\img\\\\prof_pic.jpg\")",
-      "Bash(convert --version)",
-      "Bash(magick --version)",
-      "PowerShell(magick --version 2>&1)"
+      "PowerShell(Get-Process | Where-Object { $_.Name -match \"proton|drive\" } | Select-Object Name, Id, Description)"
     ]
   }
 }
