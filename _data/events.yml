@@ -1,4 +1,4 @@
-last_updated: '2026-05-24'
+last_updated: '2026-06-01'
 congresses:
 - id: bachelier
   name: Bachelier Finance Society World Congress
@@ -16,7 +16,7 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://www.bacheliercongress.com/2026/
-    notes: 13th World Congress of the Bachelier Finance Society, hosted by the University
+    notes: 13th World Congress of the Bachelier Finance Society, hosted by University
       of Bologna
 - id: seio
   name: Congreso de la Sociedad Española de Estadística e Investigación Operativa
@@ -33,7 +33,7 @@ congresses:
     location: Santiago de Compostela, Spain
     abstract_deadline: ''
     registration_deadline: ''
-    edition_website: https://seio2026.com/en/
+    edition_website: https://seio2026.com
     notes: XLII Congreso Nacional de Estadística, Investigación Operativa y Ciencia
       de Datos
 - id: iwspa
@@ -51,9 +51,9 @@ congresses:
     location: Badajoz, Spain
     abstract_deadline: ''
     registration_deadline: ''
-    edition_website: https://sites.google.com/view/iwspa2026/home
+    edition_website: https://eventos.unex.es/event_detail/141681/tickets.html
     notes: 5th International Workshop on Stochastic Processes and Their Applications,
-      organized by the SEIO Working Group on Stochastic Processes
+      organized by SEIO working group, at University of Extremadura
 - id: clapem
   name: Latin American Congress of Probability and Mathematical Statistics
   short_name: CLAPEM
@@ -70,5 +70,5 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: ''
-    notes: XVII CLAPEM (Montevideo, March 2-6, 2026) has passed; no announcement found
-      yet for the XVIII edition (expected ~2028-2029)
+    notes: XVII CLAPEM was held March 2-6, 2026 in Montevideo. No announcement found
+      yet for XVIII edition (expected around 2028-2029).
