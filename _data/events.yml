@@ -1,4 +1,4 @@
-last_updated: '2026-08-01'
+last_updated: '2026-09-01'
 congresses:
 - id: bachelier
   name: Bachelier Finance Society World Congress
@@ -16,8 +16,8 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://eventi.unibo.it/bachelier
-    notes: XIII Bachelier World Congress, hosted by University of Bologna. Next edition
-      (2028) will be held 17-21 July 2028 in Stellenbosch.
+    notes: XIII Bachelier World Congress; next edition (2028) planned for Stellenbosch,
+      17-21 July 2028.
 - id: seio
   name: Congreso de la Sociedad Española de Estadística e Investigación Operativa
   short_name: SEIO
@@ -33,9 +33,9 @@ congresses:
     location: Santiago de Compostela, Spain
     abstract_deadline: ''
     registration_deadline: ''
-    edition_website: https://seio2026.com/en/
+    edition_website: https://seio2026.com
     notes: XLII Congreso Nacional de Estadística, Investigación Operativa y Ciencia
-      de Datos, at Universidade de Santiago de Compostela.
+      de Datos.
 - id: iwspa
   name: International Workshop on Statistical Process Analysis
   short_name: IWSPA
@@ -52,8 +52,8 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://sites.google.com/view/iwspa2026/home
-    notes: The 5th edition (IWSPA 2026) was held June 30–July 2, 2026 at Universidad
-      de Extremadura, Badajoz, Spain — already passed. No next edition announced yet.
+    notes: V edition (IWSPA 2026) was held 30 June – 2 July 2026 in Badajoz, Spain
+      (Universidad de Extremadura); no next edition announced yet.
 - id: clapem
   name: Latin American Congress of Probability and Mathematical Statistics
   short_name: CLAPEM
@@ -70,5 +70,5 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: ''
-    notes: XVII CLAPEM (March 2-6, 2026, Montevideo) has passed. No announcement found
-      for XVIII CLAPEM (expected around 2028-2029).
+    notes: XVII CLAPEM was held March 2-6, 2026 in Montevideo, Uruguay. No announcement
+      yet found for XVIII CLAPEM (expected around 2028-2029).
