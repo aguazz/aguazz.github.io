@@ -1,4 +1,4 @@
-last_updated: '2026-09-01'
+last_updated: '2026-10-01'
 congresses:
 - id: bachelier
   name: Bachelier Finance Society World Congress
@@ -9,15 +9,14 @@ congresses:
     '
   website: https://www.bachelier-finance.org
   next_edition:
-    year: '2026'
-    dates_start: '2026-06-29'
-    dates_end: '2026-07-03'
-    location: Bologna, Italy
+    year: '2028'
+    dates_start: '2028-07-17'
+    dates_end: '2028-07-21'
+    location: Stellenbosch, South Africa
     abstract_deadline: ''
     registration_deadline: ''
-    edition_website: https://eventi.unibo.it/bachelier
-    notes: XIII Bachelier World Congress; next edition (2028) planned for Stellenbosch,
-      17-21 July 2028.
+    edition_website: https://www.bacheliercongress.com/
+    notes: 14th World Congress 2028 in Stellenbosch, South Africa, July 17-21, 2028
 - id: seio
   name: Congreso de la Sociedad Española de Estadística e Investigación Operativa
   short_name: SEIO
@@ -27,15 +26,17 @@ congresses:
     '
   website: https://www.seio.es
   next_edition:
-    year: '2026'
+    year: '2028'
     dates_start: '2026-09-02'
     dates_end: '2026-09-05'
     location: Santiago de Compostela, Spain
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://seio2026.com
-    notes: XLII Congreso Nacional de Estadística, Investigación Operativa y Ciencia
-      de Datos.
+    notes: XLIII Congreso Nacional de la SEIO scheduled for spring 2028; call for
+      host institutions was open until 3 July 2026, exact dates and location not yet
+      announced. XLII edition already took place in Santiago de Compostela, 2–5 September
+      2026.
 - id: iwspa
   name: International Workshop on Statistical Process Analysis
   short_name: IWSPA
@@ -52,8 +53,10 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://sites.google.com/view/iwspa2026/home
-    notes: V edition (IWSPA 2026) was held 30 June – 2 July 2026 in Badajoz, Spain
-      (Universidad de Extremadura); no next edition announced yet.
+    notes: The 5th IWSPA edition took place 30 June – 2 July 2026 in Badajoz (University
+      of Extremadura) and has already concluded; the workshop is held approximately
+      every 1.5 years, so a 6th edition is expected around 2027–2028 but has not yet
+      been announced.
 - id: clapem
   name: Latin American Congress of Probability and Mathematical Statistics
   short_name: CLAPEM
@@ -70,5 +73,6 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: ''
-    notes: XVII CLAPEM was held March 2-6, 2026 in Montevideo, Uruguay. No announcement
-      yet found for XVIII CLAPEM (expected around 2028-2029).
+    notes: The XVII CLAPEM took place 2–6 March 2026 in Montevideo, Uruguay and has
+      already concluded. The XVIII edition has not yet been announced; CLAPEM is held
+      roughly every two or three years.
