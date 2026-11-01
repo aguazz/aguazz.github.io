@@ -1,4 +1,4 @@
-last_updated: '2026-10-01'
+last_updated: '2026-11-01'
 congresses:
 - id: bachelier
   name: Bachelier Finance Society World Congress
@@ -16,7 +16,8 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://www.bacheliercongress.com/
-    notes: 14th World Congress 2028 in Stellenbosch, South Africa, July 17-21, 2028
+    notes: 14th BFS World Congress. Call for proposals for the 2030 congress open
+      until 31 December 2027.
 - id: seio
   name: Congreso de la Sociedad Española de Estadística e Investigación Operativa
   short_name: SEIO
@@ -33,10 +34,9 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://seio2026.com
-    notes: XLIII Congreso Nacional de la SEIO scheduled for spring 2028; call for
-      host institutions was open until 3 July 2026, exact dates and location not yet
-      announced. XLII edition already took place in Santiago de Compostela, 2–5 September
-      2026.
+    notes: XLII Congreso Nacional SEIO 2026 was held in Santiago de Compostela on
+      2-5 September 2026 (already passed). Next edition (XLIII, expected around early
+      2028 given the 18-month cycle) has not yet been announced on seio.es.
 - id: iwspa
   name: International Workshop on Statistical Process Analysis
   short_name: IWSPA
@@ -53,10 +53,10 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: https://sites.google.com/view/iwspa2026/home
-    notes: The 5th IWSPA edition took place 30 June – 2 July 2026 in Badajoz (University
-      of Extremadura) and has already concluded; the workshop is held approximately
-      every 1.5 years, so a 6th edition is expected around 2027–2028 but has not yet
-      been announced.
+    notes: The 5th IWSPA (International Workshop on Stochastic Processes and Their
+      Applications) was held June 30-July 2, 2026 at the University of Extremadura,
+      Badajoz, Spain (already passed). No next edition has been announced yet on the
+      SEIO working group page or seio.es.
 - id: clapem
   name: Latin American Congress of Probability and Mathematical Statistics
   short_name: CLAPEM
@@ -73,6 +73,6 @@ congresses:
     abstract_deadline: ''
     registration_deadline: ''
     edition_website: ''
-    notes: The XVII CLAPEM took place 2–6 March 2026 in Montevideo, Uruguay and has
-      already concluded. The XVIII edition has not yet been announced; CLAPEM is held
-      roughly every two or three years.
+    notes: The XVII CLAPEM was held March 2-6, 2026 in Montevideo, Uruguay (already
+      passed). The XVIII edition (expected around 2028-2029 given the 2-3 year cycle)
+      has not yet been announced on clapem.org or the SLAPEM website.
